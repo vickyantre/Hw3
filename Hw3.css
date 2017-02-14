@@ -7,8 +7,9 @@ a {
 	margin: 3px;
  	color: blue;
 	text-decoration: none;
+	padding: 5px;
  }
- a:focus{
+ a:hover{
  	border-radius: 3pt;
  	padding: 5px;
  	color: white;
@@ -34,7 +35,6 @@ a {
  }
  button {
  	font-size: 20px;
- 	margin-left: 45%;
  	border-width: 0;
  	color: white;
  	background-color: green;
@@ -50,10 +50,7 @@ a {
  	width: 45%;
  	height: 50px;
  }
- .smallblock:last-child {
- 	margin-left: 50px;
- }
-
+ 
  .smallh{
  	font-size: 25px;
  }
